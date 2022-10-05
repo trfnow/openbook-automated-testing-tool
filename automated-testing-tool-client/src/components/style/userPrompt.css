@@ -1,0 +1,79 @@
+.global-prompt-container{
+    display: flex;
+    width: 80%;
+    margin: 20px auto 10px auto;
+    justify-content: space-between;
+    border-style: solid;
+   border-radius: 20px;
+   
+}
+
+.prompt-text{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 2px 20px;
+}
+
+
+
+
+.prompt-response-evaluation-undetermined{
+    width: 20%;
+    background-color: grey;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prompt-response-evaluation-undetermined i{
+    font-size: 1.5rem;
+    color: grey
+}
+
+.prompt-response-evaluation-incorrect{
+    width: 20%;
+    background-color: red;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prompt-response-evaluation-incorrect i{
+    font-size: 1.5rem;
+    color: red
+}
+
+.prompt-response-evaluation-correct{
+    width: 20%;
+    background-color: green;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prompt-response-evaluation-correct i{
+    font-size: 1.5rem;
+    color: white
+}
+
+.prompt-response-evaluation-correct-incorrect{
+    width: 20%;
+    background-color: red;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prompt-response-evaluation-correct-incorrect i{
+    font-size: 1.5rem;
+    color: white
+}

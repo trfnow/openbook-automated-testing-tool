@@ -1,0 +1,137 @@
+.left-panel-parent{
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 96vh;
+    color: white;
+
+}
+
+.left-panel-parent.expand{
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 96vh;
+}
+
+.top-title{
+    display: flex;
+    padding: 5px 10px;
+    justify-content: center;
+    border-width: 2px;
+    border-style: solid;
+    border-left-style: none;
+    position: relative;
+}
+
+.top-title p{
+    margin: 0;    
+}
+
+.i-tag{
+    position: absolute;
+    right: 5px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.i-tag:hover{
+    color: #FA6419;
+}
+
+.top-container{
+    height: 80% ;
+    border-width: 2px;
+    border-style: solid;
+    border-left-style: none;
+    border-top-style: none;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-top: 20px;
+}
+
+#style-23::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-23::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#style-23::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #FA6419;
+}
+
+.bottom-container{
+    height: 25%;
+    margin-top: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-left-style: none;
+    border-top-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.legend p {
+    margin: 5px auto 10px auto;
+}
+
+.legend{
+    border-width: 2px;
+    border-bottom-style: solid;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.correct{
+    width: 70%;
+    text-align: center;
+    border-style: solid;
+    border-radius: 50px;
+    background-color: green;
+    margin-bottom: 5px;
+}
+
+.correct p{
+    margin: 5px;
+}
+
+.incorrect{
+    width: 70%;
+    text-align: center;
+    border-style: solid;
+    border-radius: 50px;
+    background-color: red;
+    margin-bottom: 15px;
+}
+
+.incorrect p{
+    margin: 5px;
+}
+
+.undetermined{
+    width: 70%;
+    text-align: center;
+    border-style: solid;
+    border-radius: 50px;
+    background-color: gray;
+    margin-bottom: 15px;
+}
+
+.undetermined p{
+    margin: 5px;
+}
+

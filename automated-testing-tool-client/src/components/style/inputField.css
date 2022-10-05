@@ -1,0 +1,78 @@
+#input-parent-container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    /* height: 10%; */
+    border-bottom-style: solid;;
+    border-color: #FA6419;
+    border-width: 3px;
+    display: flex;
+}
+#input-global-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-cell{
+    width: 90%;
+    display: flex;
+    align-items: end;
+}
+
+.input-cell input  {
+    margin-left: 20px;
+    width: 100%;
+    font-size: 1.2rem;
+    outline: none;
+    border-style: none;
+    line-height: normal;
+    caret-color:#FA6419;
+    padding: 0;
+}
+.button-cell{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+.button-cell i {
+    font-size: 1.8rem;
+    cursor: pointer;
+    padding: 5px 0 2px 0;   
+}
+.button-cell i:hover {
+    color:#FA6419;
+    /* transform: scale(0.9); */
+    transform: translate(3px,-3px);
+}
+
+#artifact-parent-container{
+
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#artifact-parent-container input{
+
+
+    outline: none;
+    border-style: none;
+    border-bottom-style: solid;
+    width: 22%;
+}
+
+#artifact-parent-container p{
+    margin: 0;
+    font-size: 1.5rem;
+}
+#artifact-parent-container i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+#artifact-parent-container i:hover{
+    color:#FA6419
+}
